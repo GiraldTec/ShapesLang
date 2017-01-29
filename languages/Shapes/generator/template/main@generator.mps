@@ -142,6 +142,7 @@
       </concept>
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
       <concept id="1167169308231" name="jetbrains.mps.lang.generator.structure.BaseMappingRule" flags="ng" index="30H$t8">
+        <property id="1167272244852" name="applyToConceptInheritors" index="36QftV" />
         <reference id="1167169349424" name="applicableConcept" index="30HIoZ" />
       </concept>
       <concept id="1092059087312" name="jetbrains.mps.lang.generator.structure.TemplateDeclaration" flags="ig" index="13MO4I">
@@ -193,12 +194,14 @@
       </node>
     </node>
     <node concept="3aamgX" id="3eCbUDIyCK6" role="3acgRq">
+      <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="5afp:3eCbUDIxT8U" resolve="Rectangle" />
       <node concept="j$656" id="3eCbUDIyCKi" role="1lVwrX">
         <ref role="v9R2y" node="3eCbUDIyCKg" resolve="reduce_Rectangle" />
       </node>
     </node>
     <node concept="3lhOvk" id="3eCbUDIythA" role="3lj3bC">
+      <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="5afp:3eCbUDIxT96" resolve="Canvas" />
       <ref role="3lhOvi" node="3eCbUDIythD" resolve="MyCanvas" />
     </node>

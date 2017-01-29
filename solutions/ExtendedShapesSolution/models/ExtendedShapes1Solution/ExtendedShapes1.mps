@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="29247b34-2532-4c16-ad38-a897538f58df" name="ExtendedShapes1" version="0" />
+    <engage id="98be7193-fe28-4a7e-b481-9451370f5593" name="Shapes" />
   </languages>
   <imports />
   <registry>
