@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:5b228012-1b7f-4ef7-aedc-375b4c65006e(ShapesSolution.Shapes)">
+<model ref="r:ff7f2597-6da9-48ab-82b3-5c455468fa6f(ExtendedShapes1Solution.ExtendedShapes1)">
   <persistence version="9" />
   <languages>
-    <use id="98be7193-fe28-4a7e-b481-9451370f5593" name="Shapes" version="0" />
+    <use id="29247b34-2532-4c16-ad38-a897538f58df" name="ExtendedShapes1" version="0" />
   </languages>
   <imports />
   <registry>
@@ -23,26 +23,26 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <property id="1156235010670" name="alias" index="OYydz" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="29247b34-2532-4c16-ad38-a897538f58df" name="ExtendedShapes1">
+      <concept id="3722277501067273004" name="ExtendedShapes1.structure.Square" flags="ng" index="1t8KM6" />
+      <concept id="3722277501067288353" name="ExtendedShapes1.structure.ExtendedCanvas1" flags="ng" index="1t8R2b" />
+    </language>
   </registry>
-  <node concept="1tbVRG" id="3eCbUDIyr2z">
-    <property role="TrG5h" value="OneCircleOneRectangle" />
-    <node concept="1tbVQt" id="3eCbUDIyr2Z" role="1tbVRH">
-      <property role="OYydz" value="circle" />
+  <node concept="1t8R2b" id="3eCbUDIyQrs">
+    <property role="TrG5h" value="OneCircleOneSquare" />
+    <node concept="1tbVQt" id="3eCbUDIyQsj" role="1tbVRH">
       <property role="1tbVQa" value="100" />
       <property role="1tbVQo" value="100" />
       <property role="1tbVQi" value="50" />
     </node>
-    <node concept="1tbVQg" id="3eCbUDIyszZ" role="1tbVRH">
+    <node concept="1t8KM6" id="3eCbUDIyQsr" role="1tbVRH">
       <property role="1tbVQa" value="200" />
       <property role="1tbVQo" value="200" />
-      <property role="1tbVQh" value="50" />
+      <property role="1tbVQh" value="100" />
       <property role="1tbVQn" value="100" />
     </node>
   </node>
