@@ -13,12 +13,17 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
+      </concept>
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <property id="241647608299431129" name="propertyId" index="IQ2nx" />
@@ -57,6 +62,7 @@
   <node concept="1TIwiD" id="3eCbUDIxT8R">
     <property role="EcuMT" value="3722277501067039287" />
     <property role="TrG5h" value="Circle" />
+    <property role="34LRSv" value="circle" />
     <ref role="1TJDcQ" node="3eCbUDIxT8v" resolve="Shape" />
     <node concept="1TJgyi" id="3eCbUDIxT8S" role="1TKVEl">
       <property role="IQ2nx" value="3722277501067039288" />
@@ -67,6 +73,7 @@
   <node concept="1TIwiD" id="3eCbUDIxT8U">
     <property role="EcuMT" value="3722277501067039290" />
     <property role="TrG5h" value="Rectangle" />
+    <property role="34LRSv" value="rectangle" />
     <ref role="1TJDcQ" node="3eCbUDIxT8v" resolve="Shape" />
     <node concept="1TJgyi" id="3eCbUDIxT8V" role="1TKVEl">
       <property role="IQ2nx" value="3722277501067039291" />
@@ -81,8 +88,9 @@
   </node>
   <node concept="1TIwiD" id="3eCbUDIxT96">
     <property role="EcuMT" value="3722277501067039302" />
-    <property role="TrG5h" value="Container" />
+    <property role="TrG5h" value="Canvas" />
     <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="canvas" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3eCbUDIxT97" role="1TKVEi">
       <property role="IQ2ns" value="3722277501067039303" />
@@ -90,6 +98,9 @@
       <property role="20kJfa" value="shapes" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3eCbUDIxT8v" resolve="Shape" />
+    </node>
+    <node concept="PrWs8" id="3eCbUDIyr32" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
