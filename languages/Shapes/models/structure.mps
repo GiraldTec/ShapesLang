@@ -6,6 +6,7 @@
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
+    <import index="yuwf" ref="r:2fd85359-c2b5-4e04-a316-c91dfa9255af(Colors.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -48,6 +49,13 @@
     <property role="TrG5h" value="Shape" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6KywMO2BLbZ" role="1TKVEi">
+      <property role="IQ2ns" value="7791934534645125887" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="color" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="yuwf:3eCbUDIzgzl" resolve="ColorReference" />
+    </node>
     <node concept="1TJgyi" id="3eCbUDIxT8w" role="1TKVEl">
       <property role="IQ2nx" value="3722277501067039264" />
       <property role="TrG5h" value="x" />
